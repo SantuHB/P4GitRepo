@@ -1,0 +1,142 @@
+git config --global http.sslVerify "false"
+git config http.sslVerify "false"
+
+Terminal middleware flow
+
+
+NET Core (.NET) is the cross-platform software or SDK. 
+It provides the Runtime Environment where the different .net 
+applications run.
+
+Cross-platform. Open source.
+
+A framework for building web applications and Web services with .NET.
+
+Provide tools and libraries specifically for building web apps.
+
+Applications can be developed and run on Windows, Linux, macOS, and Docker.
+
+Integrated with JS FW -Angular , React JS , Ember JS....
+
+MIDDLEWARE 
+
+			Component used to handle requests and responses
+			Request delegates are used to build the request pipeline.
+			and handle each HTTP request
+
+			In built middleware 
+			Authentication middleware
+				Check whether valid user or not 
+			Authorization middleware
+				check authorized user to access resource or not 
+			
+			Exception Handling middleware
+			Logging middleware
+			Routing middleware --navigation
+			Session middleware -- Carry user info across pages
+			CORS (Cross Origin Resource Sharing)middleware
+
+
+ASP.NET web forms    ---.Net Framework
+		     IIS(Internet Information Services) -Web Server -windows 
+
+ASP.NET CORE    --- .Net Core ---> WEB APPLICATION OR WEB SERVICES(WEB API)
+		     IIS(WINDOWS) --WEB SERVER
+		     or Kestrel(Cross -Platform) or NgInx 
+
+
+	
+	ASP.NET CORE 			ASP.NET - .NET FRAMEWORK
+	------------			--------------------
+
+	ASP.NET MVC CORE 		ASP.NET MVC 
+
+	WEB API CORE(WEB SERVICE)	WEB API(WEB SERVICES)
+
+	ENTITY FRAMEWORK CORE 		ENTITY FRAMEWORK
+
+
+	.NET FRAMEWORK ---> .NET 1.0 TO .NET 4.8.1
+	
+	ASP.NET 
+		FRAMEWORK USED FOR DEVELOPING WEB APPLICATIONS 
+
+	ASP.NET   +    MVC ARCHITECTURE 	====> ASP.NET MVC 
+
+	ASP.NET WEB API				====> WEB SERVICES
+			 REST SERVICES
+
+	ENTITY FRAMEWORK 			===> DATA ACCESS TECHNOLOGY
+
+		CONNECTING APPLICATION WITH BACK END DB (SQL SERVER OR ORACLE 
+						        ETC)
+
+	.NET CORE 	---> .NET CORE 1.0 ..2.0..3.0..3.1 ....SDK 5.0 ..6.0 ..8.0 
+
+	ASP.NET CORE 
+
+		ASP.NET CORE + MVC 	---ASP.NET MVC CORE
+	ASP.NET WEB API CORE 
+			REST SERVICES	---> JSON DATA 
+
+	ENTITY FRAMEWORK CORE 
+
+	STATIC WEB PAGES 	V/S 	DYNAMIC WEB PAGES
+
+	CLIENT SIDE APPLICATION V/S	SERVER SIDE APPLICATION
+	
+
+
+	WEB SERVICES
+	------------
+	
+	SERVICES
+		----> FUNCTIONALITIES (METHODS) ---SERVER SIDE
+		      JAVA OR C# OR PHP 
+
+		DATA 
+			XML OR JSON FORMAT
+			
+	CLIENT APPLICATION ---CONSUME
+
+		CONSOLE 		JAVA		-WINDOWS 
+		WEB APPLICATION		PHP		-LINUX
+		MOBILE 			.NET 		-IOS  
+
+Terminal Middleware
+The terminal middleware is responsible for sending the response back to the client.
+used to modify the outgoing response before it is sent back to the client
+
+Static files middleware
+File server middleware
+MVC middleware
+
+Non Terminal 
+can be used to modify incoming requests and response.
+
+Order
+
+ExceptionHandler middleware
+HttpsRedirection middleware
+StaticFiles middleware
+Routing middleware
+Authentication middleware
+Authorization middleware
+Logging 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
